@@ -1,0 +1,39 @@
+@import './base.css';
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 4.5rem 10rem 0rem 10rem;
+  font-weight: normal;
+}
+
+a, .white {
+  font-size: 16.45px;
+  text-decoration: none;
+  color: white;/*  hsla(160, 100%, 37%, 1); */
+  transition: 0.4s;
+}
+
+.btn-primary {
+  background-color: hsla(160, 100%, 37%, 1);
+  border: none;
+}
+
+.h2-title {
+  font-size: 36px;
+  font-weight: 550;
+  text-align: center;
+  margin-bottom: 0.75rem;
+  color: hsla(160, 100%, 37%, 1);
+}
+
+@media (hover: hover) {
+  a:hover {
+    color: black;
+  }
+
+  .btn-primary:hover {
+    color: hsla(160, 100%, 37%, 1);
+    background-color: white;
+  }
+}
